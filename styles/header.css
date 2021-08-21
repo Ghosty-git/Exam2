@@ -1,0 +1,46 @@
+header {
+    display: flex;
+    align-items: center;
+}
+
+.logo__header {
+    margin-top: 30px;
+    margin-left: 82px;
+}
+
+.btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 24px;
+    padding: 8px 15.5px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.btn__header_white {
+    margin-top: 16px;
+    margin-left: 803px;
+    border: 1px solid #E0E0E0;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.btn__header_black {
+    margin-top: 16px;
+    margin-left: 16px;
+    color: white;
+    background: black;
+    border: 1px solid black;
+}
+
+
+.icon__header_shop {
+    margin-left: 27px;
+    margin-bottom: 10px;
+    background-image:url(/img/basket.svg);
+    width: 50px;
+    height: 50px;
+}
+

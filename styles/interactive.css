@@ -1,0 +1,24 @@
+.icon:hover {
+    background-image: url(/img/basket-green.svg);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: #57AD56;
+    border: 1px solid #57AD56;
+    cursor: pointer;
+}
+
+.nav a {
+    color: #626262;
+}
+
+.nav a:hover {
+    color: #327430;
+}
+
+.card:hover {
+    background: #cfcccc;
+}

@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap');
+/* Roboto */
+
+@import url(./interactive.css);
+
+@import url(./header.css);
+/* HEADER */
+
+@import url(./footer.css);
+/* FOOTER */
+
+/* ТИПА MAIN XD ЛЕНЬ ПЕРЕИМЕНОВЫВАТЬ */
+
+*, *::after, *::before{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    font-family: 'Roboto';
+    background: transparent;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.background-menu {
+    object-fit: cover;
+    width: 1400px;
+    height: 364px;
+}
+
+.menu {
+    width: 389px;
+    height: 204px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 16px rgba(117, 117, 117, 0.2);
+    border-radius: 2px;
+}
+
+.btn__menu {
+    background: black;
+    border-radius: 50px;
+    color: white;
+    position: absolute;
+    right: 32px;
+    bottom: -10px;
+}
+
+.menu__title {
+    margin-top: 38px;
+    margin-left: 38px;
+    font-size: 36px;
+    line-height: 42px;
+    font-style: normal;
+    font-weight: normal;
+    color: #1D1D1D;
+}
+
+.menu__items {
+    position: relative;
+}
+
+.menu__price {
+    margin-left: 38px;
+    margin-top: 62px;
+    font-size: 14px;
+    line-height: 16px;
+    color: #626262;
+}
+
+.menu-1{
+    margin-top: 29px;
+    position: relative;
+}
+
+.menu{
+    position: absolute;
+    top: 80px;
+    left: 81px;
+}
+
+.nav__items {
+    display: flex;
+    margin-left: 81px;
+    margin-top: 32px;
+
+    background: #FFFFFF;
+}
+
+.nav__item a {
+    margin-left: 40px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 81px;
+}
+
+.card {
+    margin-left: 16px;
+    margin-top: 49px;
+    display: flex;
+    width: 470px;
+    height: 160px;
+    font-size: 16px;
+    line-height: 24px;
+    border: 1px solid rgba(117, 117, 117, 0.2);
+    box-sizing: border-box;
+    border-radius: 2px;
+    position: relative;
+}
+
+.card__title {
+    margin-top: 85px;
+    margin-left: 81px;
+}
+
+.card__name {
+    font-size: 16px;
+    line-height: 24px;
+    position: absolute;
+    top: 16px;
+    left: 16px;
+}
+
+.card__name_description{
+    color: #626262;
+    font-size: 13px;
+    line-height: 21px;
+    position: absolute;
+    top: 44px;
+    left: 16px;
+}
+
+.card__price {
+    position: absolute;
+    top: 123px;
+    left: 16px;
+}
+
+.food__image {
+    margin-left: 299px;
+}
+
+@media screen and (max-width :768px) {
+    .logo__header {
+        margin-left: 8px;
+    }
+    .btn__header_white {
+    margin-left:380px
+    }
+    .nav__items {
+        margin-left: -31px;
+    }
+    .card__title {
+        margin-left: 8px;
+    }
+    .cards {
+        margin-left: 8px;
+    }
+    .card {
+        width: 752px;
+        margin-left: 0;
+    }
+    .food__image {
+        margin-left: 594px;
+    }
+}
+
+@media screen and (max-width :320px) {
+
+    .menu-1 {
+        position: relative;
+    }
+    .menu {
+        width: 308px;
+        height: 180px;
+    }
+    .menu__title {
+        font-size: 24px;
+    line-height: 28px;
+    }
+    .menu__price {
+        position: absolute;
+        top:20px;
+        left: 20px;
+    }
+    .menu {
+        position: absolute;
+        top: 200px;
+        left: 81px;
+    }
+    .btn__menu {
+        background: black;
+        border-radius: 50px;
+        color: white;
+        position: absolute;
+        left: 80px;
+        top: 30px;
+    }
+    .navbar {
+        display:none;
+    }
+    .nav__items {
+        display: none;
+    }
+}
